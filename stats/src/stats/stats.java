@@ -1,6 +1,7 @@
 package stats;
 import java.util.Random;
 
+
 public class stats {
 	public static void main(String[] args) {
 		int antalSpel = 1000000;
