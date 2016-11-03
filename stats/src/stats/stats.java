@@ -1,5 +1,4 @@
 package stats;
-
 import java.util.Random;
 
 public class stats {
@@ -8,7 +7,7 @@ public class stats {
 		int[] games = new int[antalSpel];
 		int[] matches = new int[14]; // 1 after 11 wins and 2 lost = 14
 		int[] wins = new int[13];
-		double winRate = 0.10; // 0.5 + (0.1) this value = 0.6 = 60%
+		double winRate = 0.00; // 0.5 + (0.1) this value = 0.6 = 60%
 		Random rand = new Random();
 		int vinst;
 		int lostMatches;
@@ -39,7 +38,6 @@ public class stats {
 			number = (Math.round((double) wins[i] / antalSpel * 1000) / 10d);
 			summa = Math.round((summa + number) * 10) / 10d;
 			System.out.println(i + " Wins: " + number + "% Sum: " + summa + "%");
-
 		}
 		System.out.println("Summa: " + summa + "%");
 	}
