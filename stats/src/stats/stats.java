@@ -5,13 +5,10 @@ import java.util.Random;
 public class stats {
 	public static void main(String[] args) {
 		int antalSpel = 1000000;
-		int[] games;
-		games = new int[antalSpel];
-		int[] matches;
-		matches = new int[14]; // 1 after 11 wins and 2 lost = 14
-		int[] wins;
-		wins = new int[13];
-		double winRate = 0.00; // 0.5 + (0.1) this value = 0.6 = 60%
+		int[] games = new int[antalSpel];
+		int[] matches = new int[14]; // 1 after 11 wins and 2 lost = 14
+		int[] wins = new int[13];
+		double winRate = 0.10; // 0.5 + (0.1) this value = 0.6 = 60%
 		Random rand = new Random();
 		int vinst;
 		int lostMatches;
